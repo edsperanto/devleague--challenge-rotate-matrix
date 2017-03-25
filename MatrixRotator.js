@@ -41,7 +41,7 @@ module.exports = class MatrixRotator {
 			}
 			this.matrix = newMat;
 		} else {
-			return "Invalid direction";
+			throw 'Invalid Direction';
 		}
 
   }
